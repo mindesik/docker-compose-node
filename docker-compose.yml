@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    app:
+        container_name: NODE
+        image: node:4.4.4
+        volumes:
+            - ./:/root
+        tty: true
+        working_dir: /root
