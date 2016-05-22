@@ -5,6 +5,5 @@ services:
         container_name: NODE
         image: node:4.4.4
         volumes:
-            - ./:/root
+            - ./:/home/node
         tty: true
-        working_dir: /root
