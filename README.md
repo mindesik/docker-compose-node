@@ -1,4 +1,4 @@
-# docker-compose-node
+# Description
 
 -  `/home/node` home directory
 - `node` user
