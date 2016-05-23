@@ -3,7 +3,7 @@ version: '2'
 services:
     app:
         container_name: NODE
-        image: node:4.4.4
+        image: misterpaladin/node:latest
         volumes:
             - ./:/home/node
         tty: true
