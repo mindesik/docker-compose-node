@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-    app:
-        container_name: node
-        image: misterpaladin/node:latest
-        volumes:
-            - ./:/home/node
-        tty: true
